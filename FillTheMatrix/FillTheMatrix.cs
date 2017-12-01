@@ -76,7 +76,7 @@
                             row = 0;
                             col = i - size + 1;
 
-                            for (int j = 0; j < 2 * size - i - 1; j++)
+                            for (int j = i; j < 2 * size - 1; j++)
                             {
                                 matrix[row, col] = counter;
                                 counter++;
